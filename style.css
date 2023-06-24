@@ -463,4 +463,112 @@ footer .footer-content h2 {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+@media (max-width: 1211px) {
+  .info-jeu {
+    display: block;
+    gap: 0%;
+  }
+  .info-jeu .jeu h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .info-jeu .jeu .checkbox-choice {
+    margin-top: 20px;
+  }
+  .info-jeu .jeu .checkbox-choice label {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .info-jeu .jeu .checkbox-choice input {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+  .info-jeu .jeu .jeu-vertical {
+    display: flex;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc {
+    width: 60px;
+    height: 60px;
+    background-color: #363636;
+    transition: all 5s ease-in-out;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc:hover {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #ff3838;
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.634) 0px 5px 15px;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc.green {
+    background-color: #363636;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc.green:hover {
+    background-color: green;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc.yellow {
+    background-color: #363636;
+  }
+  .info-jeu .jeu .jeu-vertical .bloc.yellow:hover {
+    background-color: rgb(255, 238, 0);
+  }
+  .info-jeu .info .info-content {
+    margin-left: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .info-jeu .info .info-content a img {
+    margin-right: 70px;
+    width: 64px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  .info-jeu .info .info-content a img:hover {
+    margin-right: 80px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+  }
+  .info-jeu .info .info-content h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .info-jeu .info .info-content2 {
+    margin-left: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .info-jeu .info .info-content2 img {
+    margin-right: 70px;
+    width: 64px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .info-jeu .info .info-content2 h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 150px;
+  }
+  footer .footer-content {
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10%;
+  }
+  footer .footer-content h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style.css.map */
