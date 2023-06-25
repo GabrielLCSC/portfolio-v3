@@ -56,7 +56,7 @@ header{
             justify-content: space-between;
             padding: 10px;
         }
-        .logo{
+        #logo{
             padding-top: 10px;
             margin-left: 30px;
             position: absolute;
@@ -67,7 +67,7 @@ header{
             transition: all 0.2s ease;
     
         }
-        .logo:hover{
+        #logo:hover{
             transform: scale(1.04);
             opacity: 0.4;
             transition: all 0.3s ease;
@@ -93,7 +93,7 @@ header{
                 li a {
                 color: #5E5E5E;
                 text-decoration: none;
-                padding: 70px;
+                padding: 0px;
                 font-size: 1.6rem;
                 font-weight: 500;
                 transition: all 0.2s ease;
@@ -182,7 +182,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 7%;
-    .photo-moi{
+    #photo-moi{
         border-radius: 25px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         max-width: 450px;
@@ -264,7 +264,7 @@ header{
             color: rgb(255, 0, 0);
         }
     }
-.project{
+#project{
     .title-project{
         margin-bottom: 90px;
         margin-left: 100px;
@@ -366,7 +366,7 @@ header{
     transition: all 0.3s ease-in-out;
 
 }
-.contact{
+#contact{
     .title-contact{
         margin-bottom: 90px;
         margin-left: 100px;
@@ -674,7 +674,7 @@ footer{
             margin-top: 50px;
             display: block;
             align-items: center;
-            .photo-moi{
+            #photo-moi{
                 display: block;
                 margin: auto;
                 border-radius: 25px;
@@ -730,7 +730,7 @@ footer{
     }
 
     // projeeeet
-    .project{
+    #project{
         .title-project{
             margin-left: 0;
             display: flex;
@@ -828,7 +828,7 @@ footer{
     }
     // contaaaaact
 
-    .contact{
+    #contact{
         .title-contact{
             margin-bottom: 90px;
             margin-left: 100px;
@@ -920,7 +920,7 @@ footer{
             margin-top: 50px;
             display: block;
             align-items: center;
-            .photo-moi{
+            #photo-moi{
                 display: block;
                 margin: auto;
                 border-radius: 25px;
@@ -976,7 +976,7 @@ footer{
     }
 
     // projeeeet
-    .project{
+    #project{
         .title-project{
             margin-left: 0;
             display: flex;
@@ -1074,7 +1074,7 @@ footer{
     }
     // contaaaaact
 
-    .contact{
+    #contact{
         .title-contact{
             margin-bottom: 50px;
             margin-left: 0;

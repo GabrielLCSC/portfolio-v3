@@ -53,7 +53,7 @@ header .navbar {
     padding: 10px;
   }
 }
-header .navbar .logo {
+header .navbar #logo {
   padding-top: 10px;
   margin-left: 30px;
   position: absolute;
@@ -64,7 +64,7 @@ header .navbar .logo {
   width: 140px;
   transition: all 0.2s ease;
 }
-header .navbar .logo:hover {
+header .navbar #logo:hover {
   transform: scale(1.04);
   opacity: 0.4;
   transition: all 0.3s ease;
@@ -88,7 +88,7 @@ header .navbar nav .menu-list {
 header .navbar nav .menu-list li a {
   color: #5E5E5E;
   text-decoration: none;
-  padding: 70px;
+  padding: 0px;
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -162,7 +162,7 @@ header .navbar nav .menu-list li a:hover {
   align-items: center;
   gap: 7%;
 }
-.home .photo-moi {
+.home #photo-moi {
   border-radius: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   max-width: 450px;
@@ -253,17 +253,17 @@ h3 {
   color: rgb(255, 0, 0);
 }
 
-.project .title-project {
+#project .title-project {
   margin-bottom: 90px;
   margin-left: 100px;
   margin-top: 120px;
 }
-.project .title-project h2 {
+#project .title-project h2 {
   margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 700;
 }
-.project .title-project h2 img {
+#project .title-project h2 img {
   margin-right: 10px;
   width: 44px;
   -o-object-fit: cover;
@@ -355,17 +355,17 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .title-contact {
+#contact .title-contact {
   margin-bottom: 90px;
   margin-left: 100px;
   margin-top: 120px;
 }
-.contact .title-contact h2 {
+#contact .title-contact h2 {
   margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 700;
 }
-.contact .title-contact h2 img {
+#contact .title-contact h2 img {
   margin-right: 10px;
   width: 44px;
   -o-object-fit: cover;
@@ -649,7 +649,7 @@ footer .footer-content h2 {
     display: block;
     align-items: center;
   }
-  .home-placement .home .photo-moi {
+  .home-placement .home #photo-moi {
     display: block;
     margin: auto;
     border-radius: 25px;
@@ -703,18 +703,18 @@ footer .footer-content h2 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .project .title-project {
+  #project .title-project {
     margin-left: 0;
     display: flex;
     justify-content: center;
     margin-top: 120px;
   }
-  .project .title-project h2 {
+  #project .title-project h2 {
     margin-bottom: 20px;
     font-size: 2.6rem;
     font-weight: 700;
   }
-  .project .title-project h2 img {
+  #project .title-project h2 img {
     margin-right: 10px;
     width: 44px;
     -o-object-fit: cover;
@@ -794,17 +794,17 @@ footer .footer-content h2 {
     color: #5E5E5E;
     transition: all 0.3s ease-in-out;
   }
-  .contact .title-contact {
+  #contact .title-contact {
     margin-bottom: 90px;
     margin-left: 100px;
     margin-top: 120px;
   }
-  .contact .title-contact h2 {
+  #contact .title-contact h2 {
     margin-bottom: 20px;
     font-size: 2.6rem;
     font-weight: 700;
   }
-  .contact .title-contact h2 img {
+  #contact .title-contact h2 img {
     margin-right: 10px;
     width: 44px;
     -o-object-fit: cover;
@@ -879,7 +879,7 @@ footer .footer-content h2 {
     display: block;
     align-items: center;
   }
-  .home-placement .home .photo-moi {
+  .home-placement .home #photo-moi {
     display: block;
     margin: auto;
     border-radius: 25px;
@@ -933,18 +933,18 @@ footer .footer-content h2 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .project .title-project {
+  #project .title-project {
     margin-left: 0;
     display: flex;
     justify-content: center;
     margin-top: 120px;
   }
-  .project .title-project h2 {
+  #project .title-project h2 {
     margin-bottom: 20px;
     font-size: 2.4rem;
     font-weight: 700;
   }
-  .project .title-project h2 img {
+  #project .title-project h2 img {
     margin-right: 10px;
     width: 44px;
     -o-object-fit: cover;
@@ -1024,19 +1024,19 @@ footer .footer-content h2 {
     color: #5E5E5E;
     transition: all 0.3s ease-in-out;
   }
-  .contact .title-contact {
+  #contact .title-contact {
     margin-bottom: 50px;
     margin-left: 0;
     display: flex;
     justify-content: center;
     margin-top: 100px;
   }
-  .contact .title-contact h2 {
+  #contact .title-contact h2 {
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 700;
   }
-  .contact .title-contact h2 img {
+  #contact .title-contact h2 img {
     margin-right: 10px;
     width: 44px;
     -o-object-fit: cover;
