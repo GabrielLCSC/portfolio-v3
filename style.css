@@ -82,13 +82,12 @@ header .navbar nav .menu-list {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 header .navbar nav .menu-list li a {
+  margin-left: 10px;
   color: #5E5E5E;
   text-decoration: none;
-  padding: 0px;
+  padding: 70px;
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -152,6 +151,7 @@ header .navbar nav .menu-list li a:hover {
   header .navbar nav .menu-list li a {
     font-size: 1.6rem;
     color: #000000;
+    padding: 0px;
   }
 }
 
