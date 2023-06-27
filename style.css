@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
+#particles-js {
+  z-index: -10;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -162,45 +171,60 @@ header .navbar nav .menu-list li a:hover {
   align-items: center;
   gap: 7%;
 }
+@keyframes colorChange {
+  0% {
+    box-shadow: rgba(3, 3, 255, 0.2) 0px 7px 29px 0px;
+  }
+  50% {
+    box-shadow: rgba(129, 0, 189, 0.24) 0px 7px 29px 0px;
+  }
+  100% {
+    box-shadow: rgba(0, 0, 70, 0.2) 0px 7px 29px 0px;
+  }
+}
 .home #photo-moi {
+  position: relative;
   border-radius: 25px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(3, 3, 255, 0.2) 0px 7px 29px 0px;
   max-width: 450px;
   -o-object-fit: cover;
      object-fit: cover;
+  animation: colorChange 5s infinite;
 }
-.home .home-text {
+
+.home-text {
   padding-bottom: 100px;
   width: 530px;
 }
 @media (max-width: 885px) {
-  .home .home-text {
+  .home-text {
     width: 100%;
   }
 }
-.home .home-text img {
+.home-text img {
   margin-right: 20px;
   width: 44px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.home .home-text h2 {
+.home-text h2 {
   margin-bottom: 20px;
   font-size: 3.6rem;
   font-weight: 700;
 }
-.home .home-text h1 {
+.home-text h1 {
   font-size: 3rem;
   font-weight: 500;
   line-height: 49px;
 }
-.home .home-text p {
+.home-text p {
   font-size: 3rem;
   font-weight: 500;
   line-height: 49px;
   color: red;
 }
-.home .fond_code {
+
+.fond_code {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;

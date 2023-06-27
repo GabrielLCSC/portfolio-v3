@@ -32,3 +32,20 @@ checkboxYellow.addEventListener('change', function() {
     });
     }
 });
+
+// Création de la traînée
+var trail = document.getElementById('trail');
+
+// Gestion du mouvement de la souris
+document.addEventListener('mousemove', function(event) {
+  var dot = document.createElement('div');
+  dot.className = 'trail-dot';
+  dot.style.left = (event.clientX - 5) + 'px';
+  dot.style.top = (event.clientY - 5) + 'px';
+  trail.appendChild(dot);
+
+  // Suppression des points précédents après un certain nombre
+  if (trail.children.length > 20) {
+    trail.removeChild(trail.firstChild);
+  }
+});
