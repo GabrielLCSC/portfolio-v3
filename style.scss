@@ -48,6 +48,14 @@
     src: url('fonts/MontserratAlternates-ExtraBold.ttf') format('truetype');
     }
 
+// section reglages
+#home{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+
 header{
     position: sticky;
     z-index: 10;
@@ -105,12 +113,12 @@ header{
                 padding: 70px;
                 font-size: 1.6rem;
                 font-weight: 500;
-                transition: all 0.2s ease;
+                transition: all 0.3s ease;
                 }
                 
                 li a:hover {
-                    
-                    transition: all 0.2s ease-in-out;
+                    color: #4C57F9;
+                    transition: all 0.3s ease-in-out;
 
                 }
             }
@@ -316,6 +324,14 @@ header{
             }
         }
     }
+}
+.section { /* Ajustez la hauteur selon vos besoins */
+    transition: transform 0.5s ease; /* Propriété de transition */
+}
+
+  /* Effet de transition pour décaler les sections vers le haut */
+.section.active {
+    transform: translateY(-20px); /* Ajustez la valeur de décalage */
 }
 .proj-full{
     margin-bottom: 70px;

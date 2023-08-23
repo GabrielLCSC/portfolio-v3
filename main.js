@@ -49,3 +49,27 @@ document.addEventListener('mousemove', function(event) {
     trail.removeChild(trail.firstChild);
   }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll("nav ul li a");
+    const sections = document.querySelectorAll(".section");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute("href"));
+        
+        sections.forEach(section => {
+          section.classList.remove("active");
+        });
+
+        target.classList.add("active");
+
+        // Défilement fluide vers la section
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: "smooth"
+        });
+      });
+    });
+  });
