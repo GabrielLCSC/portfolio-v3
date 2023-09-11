@@ -180,21 +180,10 @@ header .navbar nav .menu-list li a:hover {
   align-items: center;
   gap: 7%;
 }
-@keyframes colorChange {
-  0% {
-    box-shadow: rgba(3, 3, 255, 0.2) 0px 7px 29px 0px;
-  }
-  50% {
-    box-shadow: rgba(129, 0, 189, 0.24) 0px 7px 29px 0px;
-  }
-  100% {
-    box-shadow: rgba(0, 0, 70, 0.2) 0px 7px 29px 0px;
-  }
-}
 .home #photo-moi {
   position: relative;
   border-radius: 25px;
-  box-shadow: rgba(3, 3, 255, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(54, 54, 54, 0.2) 0px 7px 29px 0px;
   max-width: 450px;
   -o-object-fit: cover;
      object-fit: cover;
