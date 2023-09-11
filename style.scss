@@ -17,6 +17,11 @@
     font-family: 'MontserratAlternates', sans-serif;
     font-size: 10px;
 }
+@font-face {
+    font-family: 'MontserratAlternates';
+    font-weight: 800;
+    src: url('fonts/MontserratAlternates-ExtraBold.ttf') format('truetype');
+    }
 
 @font-face {
     font-family: 'MontserratAlternates';
@@ -42,11 +47,7 @@
     src: url('fonts/MontserratAlternates-Regular.ttf') format('truetype');
     }
 
-@font-face {
-    font-family: 'MontserratAlternates';
-    font-weight: 700;
-    src: url('fonts/MontserratAlternates-ExtraBold.ttf') format('truetype');
-    }
+
 
 // section reglages
 #home{
