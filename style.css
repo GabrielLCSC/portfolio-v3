@@ -102,7 +102,7 @@ header .navbar nav .menu-list {
 }
 header .navbar nav .menu-list li a {
   margin-left: 10px;
-  color: #5E5E5E;
+  color: #5e5e5e;
   text-decoration: none;
   padding: 70px;
   font-size: 1.6rem;
@@ -110,7 +110,7 @@ header .navbar nav .menu-list li a {
   transition: all 0.3s ease;
 }
 header .navbar nav .menu-list li a:hover {
-  color: #4C57F9;
+  color: #4c57f9;
   transition: all 0.3s ease-in-out;
 }
 @media (max-width: 968px) {
@@ -276,23 +276,25 @@ h3 {
 }
 
 #project .title-project {
+  display: flex;
+  align-items: center;
   margin-bottom: 90px;
   margin-left: 100px;
   margin-top: 120px;
 }
 #project .title-project h2 {
-  margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 700;
 }
-#project .title-project h2 img {
+#project .title-project img {
   margin-right: 10px;
   width: 44px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.section { /* Ajustez la hauteur selon vos besoins */
+.section {
+  /* Ajustez la hauteur selon vos besoins */
   transition: transform 0.5s ease; /* Propriété de transition */
 }
 
@@ -362,7 +364,7 @@ h3 {
 .proj-full .proj-doc .proj-title a h3:hover {
   font-size: 2rem;
   font-weight: 600;
-  color: #5E5E5E;
+  color: #5e5e5e;
   transition: all 0.3s ease-in-out;
 }
 
@@ -377,6 +379,7 @@ h3 {
 }
 
 .fond2 {
+  z-index: -2;
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -387,16 +390,17 @@ h3 {
 }
 
 #contact .title-contact {
+  display: flex;
+  align-items: center;
   margin-bottom: 90px;
   margin-left: 100px;
   margin-top: 120px;
 }
 #contact .title-contact h2 {
-  margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 700;
 }
-#contact .title-contact h2 img {
+#contact .title-contact img {
   margin-right: 10px;
   width: 44px;
   -o-object-fit: cover;
@@ -734,23 +738,6 @@ footer .footer-content h2 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #project .title-project {
-    margin-left: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-  }
-  #project .title-project h2 {
-    margin-bottom: 20px;
-    font-size: 2.6rem;
-    font-weight: 700;
-  }
-  #project .title-project h2 img {
-    margin-right: 10px;
-    width: 44px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .proj-full {
     margin-left: 0px;
     margin-bottom: 70px;
@@ -822,7 +809,7 @@ footer .footer-content h2 {
   .proj-full .proj-doc .proj-title a h3:hover {
     font-size: 2rem;
     font-weight: 600;
-    color: #5E5E5E;
+    color: #5e5e5e;
     transition: all 0.3s ease-in-out;
   }
   #contact .title-contact {
@@ -975,7 +962,7 @@ footer .footer-content h2 {
     font-size: 2.4rem;
     font-weight: 700;
   }
-  #project .title-project h2 img {
+  #project .title-project img {
     margin-right: 10px;
     width: 44px;
     -o-object-fit: cover;
@@ -1052,7 +1039,7 @@ footer .footer-content h2 {
   .proj-full .proj-doc .proj-title a h3:hover {
     font-size: 1.6rem;
     font-weight: 600;
-    color: #5E5E5E;
+    color: #5e5e5e;
     transition: all 0.3s ease-in-out;
   }
   #contact .title-contact {
@@ -1185,4 +1172,7 @@ footer .footer-content h2 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+.ooeo__logo {
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
